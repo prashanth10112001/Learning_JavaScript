@@ -96,18 +96,18 @@ for (let i = 0; i <= 100; i++) {
 
 // Question 2 : Create a game where you start with any random game number. Ask the user to keep guessing the game number until the user enters correct value.
 
-// let num = Math.floor(Math.random() * 100) + 1;
-// let guess = prompt("Guess the number : ");
-// while (num != guess) {
-//   if (num > guess) {
-//     alert("Your guess is low. Try again.");
-//     guess = prompt("Guess the number : ");
-//   } else {
-//     alert("Your guess is high. Try again.");
-//     guess = prompt("Guess the number : ");
-//   }
-// }
-// alert("Congratulations! You guessed the number correctly.");
+let num = Math.floor(Math.random() * 100) + 1;
+let guess = prompt("Guess the number : ");
+while (num != guess) {
+  if (num > guess) {
+    alert("Your guess is low. Try again.");
+    guess = prompt("Guess the number : ");
+  } else {
+    alert("Your guess is high. Try again.");
+    guess = prompt("Guess the number : ");
+  }
+}
+alert("Congratulations! You guessed the number correctly.");
 
 // Strings in JavaScript
 
