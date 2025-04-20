@@ -1,3 +1,6 @@
+## HTML
+
+```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -9,3 +12,23 @@
     <script src="/script.js"></script>
   </body>
 </html>
+```
+
+## CSS
+
+```CSS
+body{
+    background-color: aliceblue;
+}
+
+```
+
+## JavaScript
+
+```JS
+
+
+console.log("Hello world");
+
+
+```
