@@ -9,16 +9,17 @@
     <title>My Page</title>
   </head>
   <body>
-    <div class="para">New Topic DOM</div>
-    <h1 id="heading">DOM Concepts</h1>
-    <p class="para">Lets learn about the DOM concepts in JavaScript</p>
-    <button>Click to learn :)</button>
+    <!-- These are inline events handling in HTML which is not better way to handle -->
+    <!-- onclick is used to add a click event -->
+    <button onclick="console.log('Button Clicked')">Click ME</button>
+    <!-- ondblclick is used to add a double click event -->
+    <button ondblclick="console.log('Double Clicked');alert('Double Clicked')">
+      click me double
+    </button>
+    <div onmouseover="console.log('Mouse Enter')">inside the div</div>
 
-    <div class="container">
-      <h2>Hello World</h2>
-      <p>This is a paragraph</p>
-    </div>
-
+    <button class="btn">Click me new</button>
+    <div class="div">Div clicked</div>
     <!-- JavaScript -->
     <script src="/script.js"></script>
     <!--  -->
