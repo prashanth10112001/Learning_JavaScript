@@ -81,6 +81,35 @@ setTimeout(() => {
 // As the setTimeout are taking time so they kept aside parallely run and the console.log() statement will be executed first.
 console.log("Fourth");
 
+
+/*
+
+----------------
+Set Interval
+----------------
+
+-> It repeats till the setInterval is not cleared out.
+
+Syntax : setInterval(function,timeout);
+
+setInterval(()=>{
+console.log("Apna college)
+},2000); //ms - > 2s
+
+clearInterval(id);
+
+*/
+
+let id = setInterval(()=>{
+  // individual id numeric increasing order
+  console.log("Hi there");
+},2000);
+
+clearInterval(id);
+
+
+
+
 /*
 
 "Callbacks"
@@ -557,5 +586,7 @@ function api(dataId) {
   await api(2); // excute second
   await api(3); // excute third
 })();
+
+
 
 ```

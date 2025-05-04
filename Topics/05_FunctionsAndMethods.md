@@ -207,4 +207,19 @@ let marks90 = marks.filter((val) => {
 
 console.log(marks90); // prints the new array after filtering the original array with the condition val > 90
 
+
+/*
+
+Spread operator
+
+*/
+
+let myNewArr=[1,2,3,99,33,4,0];
+
+// let min1=Math.min(myNewArr[0],Math.min(myNewArr[1]...............)); // leangthy process
+
+let min2=Math.min(...myNewArr);
+console.log(min2);
+
+
 ```
